@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  background-color: black;
+
 }
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -14,7 +17,9 @@
     "slnt" 0;
 }
 
-.container{
+/* header section starts here */
+
+.container-1{
   justify-content:space-around;
   align-items: center;
   margin-top: 20px;
@@ -27,11 +32,18 @@
 }
 
 ul li a{
-  color: black;
+  color: white;
 }
 
 .nav-link{
   text-decoration: none;
+}
+
+.nav-links{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 0px 10px 0px 0px;
+  margin-top: 20px;
 }
 
 .active{
@@ -50,37 +62,36 @@ ul li a{
   display: flex;
 }
 
-.span-0{
-  color: black;
-  font-weight: 900;
-}
-
 .span-1{
   font-weight: 900;
   font-size: 60px;
+  color: white;
 }
 
 .span-2{
-  font-family: "Meie Script", cursive;
+  font-family: 'Miama', sans-serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 80px;
+  font-size: 150px;
+  color: white;
 }
 
 .span-3{
   font-weight: 900;
   font-size: 60px;
+  color: white;
 }
 
 .span-4{
   font-weight: 900;
   font-size: 60px;
-  margin-top: 20px;
+  color: white;
 }
+
 .logo{
   color:rgb(247, 35, 2);
-  font-size: 25px;
+  font-size: 30px;
   margin-left: 40px;
+  margin-top: 20px;
 }
 
 .btn-1{
@@ -96,19 +107,32 @@ ul li a{
 }
 
 .btn-2{
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    padding: 15px 42px;
+}
+
+.btn-3{
   font-size: 18px;
   width: 220px;
   height: 50px;
   padding: 10px 10px 10px 10px;
-  color: black;
-  background-color: white;
+  background-color: rgb(238, 74, 49);
+  color: white;
   border-radius: 42px;
+  margin-right: 10px;
+  border: none
 }
 
 .banner-image{
   width: 349px;
   margin-right: 90px;
   margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .banner{
@@ -128,4 +152,88 @@ ul li a{
   margin: 10px 0px;
   width: 520px;
   height: 48px;
+  color: rgba(255, 255, 255, 0.5);
+
+  /* header section ends here */
+}
+
+/* main section starts here */
+
+.main-content-1{
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.main-content-2{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+  margin: 0 45px;
+  color: white;
+  padding: 5px;
+}
+
+.content{
+  padding: 6px;
+  font-size: 20px;
+}
+.main-description{
+  font-size: 14px;
+  font-weight: 400;
+  padding: 20px;
+  margin-bottom: 54px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.main-des{
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.image{
+  border: 4px solid rgb(44, 44, 44);
+  border-radius: 50%;
+}
+
+.Parent{
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 11rem;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);;
+  /* padding: 2.5rem 35rem 2.5rem 3.3rem; */
+}
+.div-1{
+  background: none;
+  padding: 2.5rem 0 2.5rem 3.5rem;
+
+}
+.title{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  background: none;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.Description{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  background: none;
+  width: 25rem;
+  margin-bottom: 20px;
+}
+.div-2{
+  background: none;
+  padding: 2.5rem 2.5rem 2.5rem 0;
+}
+.img{
+  zoom: 25%;
+  background: none;
+  border-radius: 50px; 
 }
